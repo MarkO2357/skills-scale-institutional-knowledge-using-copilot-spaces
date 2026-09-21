@@ -1,13 +1,13 @@
-name: "Add Content to Project Management Process Docs"
-description: "Request to add new content or updates to an existing program management process document."
+name: "Add Content to Program Process Documents"
+description: "Request to add new content or updates to an existing program process document."
 title: "[Process Doc Update]: "
 labels: ["documentation", "process improvement"]
 body:
   - type: dropdown
     id: process_doc
     attributes:
-      label: "Which process document do you want to update? (If this is a new document, select '<new document>')"
-      description: "Select the program management process document you want to add content to. If this is a new process doc, choose '<new document>'."
+      label: "Which program process document do you want to update? (If this is a new document, select '<new document>')"
+      description: "Select the program process document you want to add content to. If this is a new process doc, choose '<new document>'."
       options:
         - octoacme-project-management-overview.md
         - octoacme-project-initiation.md
